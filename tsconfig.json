@@ -19,7 +19,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@api/*": ["./src/api/*"],
+      "@types/*": ["./src/types/*"],
+      "@domain/*": ["./src/domain/*"],
+      "@utils/*": ["./src/utils/*"]
     }
   },
   "include": [

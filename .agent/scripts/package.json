@@ -1,0 +1,31 @@
+{
+  "name": "agent-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automation scripts for Agent skill management",
+  "scripts": {
+    "sync": "zx sync-platforms.mjs --target=all",
+    "sync:dry": "zx sync-platforms.mjs --target=all --dry-run",
+    "agent:index": "zx generate-agent-index.mjs",
+    "agent:benchmark": "zx benchmark.mjs",
+    "agent:review": "zx review.mjs",
+    "agent:audit": "bash audit-claude.sh",
+    "agent:check-refs": "node check-references.mjs",
+    "agent:check-refs:graph": "node check-references.mjs --graph",
+    "agent:distribute": "bash distribute.sh",
+    "agent:distribute:dry": "bash distribute.sh --dry-run",
+    "agent:distribute:push": "bash distribute.sh --push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "fs-extra": "^11.3.4",
+    "globby": "^14.1.0",
+    "lodash": "^4.17.23",
+    "markdown-it": "^14.1.1",
+    "zod": "^4.3.6",
+    "zx": "^8.8.5"
+  }
+}

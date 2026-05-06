@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://react.dev/learn/rendering-lists",
+    "https://nextjs.org/docs/app/building-your-application/rendering/server-and-client-components"
+  ]
+}

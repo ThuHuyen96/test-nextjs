@@ -1,0 +1,5 @@
+{
+  "components_root": "src/components/",
+  "pages_root": "src/app/",
+  "output_index": ".agent/memories/local-components.md"
+}

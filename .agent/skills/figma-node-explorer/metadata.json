@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://www.figma.com/developers/api",
+    "https://www.figma.com/plugin-docs/",
+    "https://www.figma.com/dev-mode/"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://help.figma.com/hc/en-us/articles/360039951754-Apply-Auto-Layout-to-layers",
+    "https://tailwindcss.com/docs/flex-direction"
+  ]
+}

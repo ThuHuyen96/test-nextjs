@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "expires": "{{YYYY-MM-DD — re-evaluate after 6 months}}",
+  "references": [
+    "{{URL_OR_INTERNAL_DOC_REFERENCE}}"
+  ]
+}

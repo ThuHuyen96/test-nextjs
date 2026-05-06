@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://www.w3.org/WAI/WCAG22/quickref/",
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
+  ]
+}

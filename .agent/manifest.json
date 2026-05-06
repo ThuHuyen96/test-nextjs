@@ -1,0 +1,225 @@
+{
+  "lastUpdated": "2026-05-06T04:03:10.220Z",
+  "skills": [
+    {
+      "id": "a11y-wcag",
+      "title": "a11y-wcag",
+      "description": "WCAG 2.1 accessibility checklist based on W3C ARRM. Use for a11y audits, compliance checks, and role-based a11y tasks.",
+      "category": "Standards",
+      "path": "./skills/a11y-wcag/SKILL.md",
+      "humanCheck": "✅ Ryan",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "✅ Enterprise"
+    },
+    {
+      "id": "accessibility-wcag",
+      "title": "accessibility-wcag",
+      "description": ">",
+      "category": "Standards",
+      "path": "./skills/accessibility-wcag/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "⚪ N/A",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "coding-conventions",
+      "title": "coding-conventions",
+      "description": "Project-wide naming and coding conventions for files, variables, functions, React components, and Next.js patterns. Use when writing new code, reviewing code, or before committing changes in Next.js p",
+      "category": "Standards",
+      "path": "./skills/coding-conventions/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "css-sizing",
+      "title": "css-sizing",
+      "description": "CSS sizing and layout rules for components. Apply to every frontend task.",
+      "category": "Standards",
+      "path": "./skills/css-sizing/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "⚪ N/A",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "figma-layout-intent",
+      "title": "figma-layout-intent",
+      "description": ">",
+      "category": "Figma",
+      "path": "./skills/figma-layout-intent/SKILL.md",
+      "dependsOn": [
+        ".agent/skills/css-sizing/SKILL.md",
+        ".agent/skills/markup-generation/SKILL.md"
+      ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "⚪ N/A",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "figma-node-explorer",
+      "title": "figma-node-explorer",
+      "description": "Extract child node-ids from Figma design for component breakdown. Use when user provides Figma URL, wants to explore node hierarchy, break design into components, or implement design section by sectio",
+      "category": "Figma",
+      "path": "./skills/figma-node-explorer/SKILL.md",
+      "humanCheck": "✅ Ryan",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "✅ Enterprise"
+    },
+    {
+      "id": "figma-to-next-component",
+      "title": "figma-to-next-component",
+      "description": "Extract Figma node data via MCP and implement a polished React component using the project's existing component library and design tokens. Use when converting a Figma URL or node into an independent .",
+      "category": "Figma",
+      "path": "./skills/figma-to-next-component/SKILL.md",
+      "dependsOn": [
+        "next-best-practices"
+      ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "find-skills",
+      "title": "find-skills",
+      "description": "Helps users discover and install agent skills. Use when user asks questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or expresses interest in extending capabilities.",
+      "category": "Meta",
+      "path": "./skills/find-skills/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "git-commit",
+      "title": "git-commit",
+      "description": "Creates git commits following Conventional Commits format with type/scope/subject. Use when user wants to commit changes, create commit, save work, or stage and commit. Handles regular branch commits ",
+      "category": "DevOps",
+      "path": "./skills/git-commit/SKILL.md",
+      "dependsOn": [
+        "coding-conventions"
+      ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "markup-generation",
+      "title": "markup-generation",
+      "description": ">",
+      "category": "Standards",
+      "path": "./skills/markup-generation/SKILL.md",
+      "dependsOn": [
+        ".agent/skills/css-sizing/SKILL.md",
+        ".agent/skills/figma-layout-intent/SKILL.md",
+        ".agent/skills/markup-generation/references/semantic.md",
+        ".agent/skills/markup-generation/references/a11y.md",
+        ".agent/skills/markup-generation/references/tokens-tailwind.md"
+      ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "⚪ N/A",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "next-best-practices",
+      "title": "next-best-practices",
+      "description": "Use when building Next.js apps to enforce best practices for file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, and bundlin",
+      "category": "Framework",
+      "path": "./skills/next-best-practices/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "next-cache-components",
+      "title": "next-cache-components",
+      "description": "Use when implementing caching or PPR in Next.js 16+ using use cache directive, cacheLife, cacheTag, and updateTag.",
+      "category": "Framework",
+      "path": "./skills/next-cache-components/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "next-compile",
+      "title": "next-compile",
+      "description": "Use when checking Next.js compilation errors via a running dev server. Turbopack only. MANDATORY after every code edit before reporting work complete.",
+      "category": "Framework",
+      "path": "./skills/next-compile/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "next-upgrade",
+      "title": "next-upgrade",
+      "description": "Use when upgrading Next.js to the latest version following official migration guides and codemods.",
+      "category": "Framework",
+      "path": "./skills/next-upgrade/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "nextjs-manifesto",
+      "title": "nextjs-manifesto",
+      "description": "Foundational principles, core stack (Next.js, Tailwind), and operational workflow for AI Agent development in Next.js projects. Use when establishing project methodology or defining development standa",
+      "category": "Architecture",
+      "path": "./skills/nextjs-manifesto/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "preflight",
+      "title": "preflight",
+      "description": ">",
+      "category": "Standards",
+      "path": "./skills/preflight/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "⚪ N/A",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "quality-audit",
+      "title": "quality-audit",
+      "description": "Comprehensive quality audit for frontend changes including a11y, next-best-practices, and design consistency. Use for final verification before PR or task completion.",
+      "category": "Standards",
+      "path": "./skills/quality-audit/SKILL.md",
+      "dependsOn": [
+        "a11y-wcag",
+        "next-best-practices",
+        "coding-conventions"
+      ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "tailwind-v4",
+      "title": "tailwind-v4",
+      "description": "\"Tailwind CSS v4 patterns: CSS-first config, @theme/@utility/@custom-variant directives, migration from v3. Use when working with Tailwind v4 projects.\"",
+      "category": "Design",
+      "path": "./skills/tailwind-v4/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://nextjs.org/docs",
+    "https://react.dev/",
+    "https://tailwindcss.com/docs",
+    "https://typescriptlang.org/docs",
+    "https://vitest.dev/guide/"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://tailwindcss.com/docs/width",
+    "https://tailwindcss.com/docs/max-width"
+  ]
+}

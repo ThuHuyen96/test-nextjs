@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://www.figma.com/developers/api",
+    "https://help.figma.com/hc/en-us/articles/360040050114-Inspect-and-copy-code-for-designs"
+  ]
+}

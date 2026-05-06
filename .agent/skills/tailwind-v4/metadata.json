@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss-v4",
+  "version": "1.0.0",
+  "status": "verified",
+  "organization": "Community",
+  "date": "January 2026",
+  "abstract": "Tailwind CSS v4 patterns: CSS-first config, @theme/@utility/@variant directives, migration from v3. High-performance, no-build-step development.",
+  "references": [
+    "https://tailwindcss.com/docs",
+    "https://tailwindcss.com/blog/tailwindcss-v4",
+    "https://tailwindcss.com/docs/upgrade-guide",
+    "https://tailwindcss.com/docs/theme",
+    "https://tailwindcss.com/docs/adding-custom-styles",
+    "https://github.com/tailwindlabs/tailwindcss"
+  ],
+  "testStatus": {
+    "totalCases": 15,
+    "passing": 15,
+    "passRate": "100%",
+    "lastRun": "2026-01-16",
+    "layers": {
+      "execution": { "total": 8, "passing": 8 },
+      "source": { "total": 7, "passing": 7 }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://wave.webaim.org/extension/",
+    "https://www.deque.com/axe/devtools/"
+  ]
+}
