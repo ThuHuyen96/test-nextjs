@@ -7,6 +7,8 @@ depends_on:
   - a11y-wcag
   - next-best-practices
   - coding-conventions
+  - react-useeffect
+  - review-react
 ---
 # Frontend Quality Audit
 
@@ -41,6 +43,9 @@ This skill provides a rigorous verification checklist to ensure every frontend c
 - [ ] **Next.js 16 Caching**: Correct use of `'use cache'`, `cacheLife`, and `cacheTag` (see `next-cache-components`).
 - [ ] **State**: Local state managed via hooks; global state managed via context or dedicated library.
 - [ ] **Types**: Props fully typed, no `any`.
+- [ ] **useEffect**: No unnecessary Effects — derived state calculated during render, event handlers used for user interactions (see `react-useeffect`).
+- [ ] **React Rules**: No purity violations, hooks called at top-level only, no inline component definitions (see `review-react`).
+- [ ] **Re-render**: No unnecessary re-renders — memoization applied correctly, primitive deps in effects (see `review-react`).
 
 ### 3. Design Consistency
 

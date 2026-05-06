@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://react.dev/learn/you-might-not-need-an-effect",
+    "https://react.dev/reference/react/useEffect"
+  ]
+}

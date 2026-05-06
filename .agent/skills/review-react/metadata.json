@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "references": [
+    "https://react.dev/reference/rules",
+    "https://react.dev/learn/render-and-commit"
+  ]
+}

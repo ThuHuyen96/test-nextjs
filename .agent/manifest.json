@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T04:03:10.220Z",
+  "lastUpdated": "2026-05-06T06:55:08.186Z",
   "skills": [
     {
       "id": "a11y-wcag",
@@ -15,11 +15,11 @@
     {
       "id": "accessibility-wcag",
       "title": "accessibility-wcag",
-      "description": ">",
+      "description": "Use when working with UI, frontend, or accessibility review. Ensures WCAG 2.2 AA compliance, produces accessible markup, reviews/audits a11y issues.",
       "category": "Standards",
       "path": "./skills/accessibility-wcag/SKILL.md",
       "humanCheck": "⚠️",
-      "benchmarkStatus": "⚪ N/A",
+      "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",
       "finalStatus": "🚧 Draft"
     },
@@ -37,26 +37,26 @@
     {
       "id": "css-sizing",
       "title": "css-sizing",
-      "description": "CSS sizing and layout rules for components. Apply to every frontend task.",
+      "description": "Use when determining CSS sizing and layout rules for components. CSS sizing and layout rules for components. Apply to every frontend task.",
       "category": "Standards",
       "path": "./skills/css-sizing/SKILL.md",
       "humanCheck": "⚠️",
-      "benchmarkStatus": "⚪ N/A",
+      "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",
       "finalStatus": "🚧 Draft"
     },
     {
       "id": "figma-layout-intent",
       "title": "figma-layout-intent",
-      "description": ">",
-      "category": "Figma",
+      "description": "Use when translating Figma positioning artifacts into CSS layout strategies. Translates Figma positioning artifacts into correct CSS layout strategy (flex/grid vs absolute).",
+      "category": "Development",
       "path": "./skills/figma-layout-intent/SKILL.md",
       "dependsOn": [
         ".agent/skills/css-sizing/SKILL.md",
         ".agent/skills/markup-generation/SKILL.md"
       ],
       "humanCheck": "⚠️",
-      "benchmarkStatus": "⚪ N/A",
+      "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",
       "finalStatus": "🚧 Draft"
     },
@@ -113,8 +113,8 @@
     {
       "id": "markup-generation",
       "title": "markup-generation",
-      "description": ">",
-      "category": "Standards",
+      "description": "Use when translating Figma designs into production-ready Next.js 16 (React) components. Governs the end-to-end workflow (Phase 0→3) for translating Figma designs into production-ready Next.js 16 (Reac",
+      "category": "Development",
       "path": "./skills/markup-generation/SKILL.md",
       "dependsOn": [
         ".agent/skills/css-sizing/SKILL.md",
@@ -124,7 +124,7 @@
         ".agent/skills/markup-generation/references/tokens-tailwind.md"
       ],
       "humanCheck": "⚠️",
-      "benchmarkStatus": "⚪ N/A",
+      "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",
       "finalStatus": "🚧 Draft"
     },
@@ -186,11 +186,11 @@
     {
       "id": "preflight",
       "title": "preflight",
-      "description": ">",
-      "category": "Standards",
+      "description": "Use when validating Figma URLs, fetching design data, and surfacing errors before code generation. Hard-stop conditions and Figma MCP validation rules.",
+      "category": "Development",
       "path": "./skills/preflight/SKILL.md",
       "humanCheck": "⚠️",
-      "benchmarkStatus": "⚪ N/A",
+      "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",
       "finalStatus": "🚧 Draft"
     },
@@ -203,8 +203,32 @@
       "dependsOn": [
         "a11y-wcag",
         "next-best-practices",
-        "coding-conventions"
+        "coding-conventions",
+        "react-useeffect",
+        "review-react"
       ],
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "react-useeffect",
+      "title": "react-useeffect",
+      "description": "React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect and better",
+      "category": "React",
+      "path": "./skills/react-useeffect/SKILL.md",
+      "humanCheck": "⚠️",
+      "benchmarkStatus": "🟢 PASS",
+      "reviewStatus": "⚪ N/A",
+      "finalStatus": "🚧 Draft"
+    },
+    {
+      "id": "review-react",
+      "title": "review-react",
+      "description": "React code review guidelines covering Rules of React, re-render optimization, rendering performance, and advanced patterns. Activates when writing, reviewing, or refactoring React components, hooks, o",
+      "category": "React",
+      "path": "./skills/review-react/SKILL.md",
       "humanCheck": "⚠️",
       "benchmarkStatus": "🟢 PASS",
       "reviewStatus": "⚪ N/A",

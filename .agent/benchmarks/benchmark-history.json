@@ -353,5 +353,147 @@
         "pass": true
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-06T06:54:02.760Z",
+    "verdict": "FAIL",
+    "results": [
+      {
+        "label": "D1: Always-Apply Size",
+        "value": "1901 chars",
+        "pass": true
+      },
+      {
+        "label": "D2: Hardcoded Values",
+        "value": "0 hits",
+        "pass": true
+      },
+      {
+        "label": "D3: Skill Coverage",
+        "value": "90.0%",
+        "pass": false
+      },
+      {
+        "label": "D4: Ref Integrity",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D5: AI Neutrality",
+        "value": "100/100",
+        "pass": true
+      },
+      {
+        "label": "D6: Template Compliance",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D7: Metadata Completeness",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D8: Documentation Depth",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D9: Frontmatter Quality",
+        "value": "95.0%",
+        "pass": true
+      },
+      {
+        "label": "D10: Token Budget",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D11: Content Quality",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D12: Progressive Disclosure",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D13: Distribution Contract",
+        "value": "0 issues",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-06T06:55:55.672Z",
+    "verdict": "PASS",
+    "results": [
+      {
+        "label": "D1: Always-Apply Size",
+        "value": "1901 chars",
+        "pass": true
+      },
+      {
+        "label": "D2: Hardcoded Values",
+        "value": "0 hits",
+        "pass": true
+      },
+      {
+        "label": "D3: Skill Coverage",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D4: Ref Integrity",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D5: AI Neutrality",
+        "value": "100/100",
+        "pass": true
+      },
+      {
+        "label": "D6: Template Compliance",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D7: Metadata Completeness",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D8: Documentation Depth",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D9: Frontmatter Quality",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D10: Token Budget",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D11: Content Quality",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D12: Progressive Disclosure",
+        "value": "100.0%",
+        "pass": true
+      },
+      {
+        "label": "D13: Distribution Contract",
+        "value": "0 issues",
+        "pass": true
+      }
+    ]
   }
 ]
