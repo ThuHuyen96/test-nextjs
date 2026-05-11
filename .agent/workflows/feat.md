@@ -8,6 +8,7 @@ description: End-to-end workflow for developing a new feature or executing a tec
 
 1. **Understand requirements**: Read the user's description, linked issues, or Figma designs.
 2. **Resolve skill dependencies**: Check if any relevant skill has `depends_on` in its frontmatter. Load all dependency skills BEFORE the primary skill.
+   - If the task involves: *refactor*, *reusable component*, *component library*, *compound component*, *boolean props*, or *context provider* → load `composition-patterns` before Phase 3.
 3. **Create Implementation Plan**: Structure the work into concrete sub-tasks. Present the plan as a `<plan>` block explaining: affected files, data flow, and which skills/patterns apply.
 4. **Get user approval** before proceeding to execution.
 

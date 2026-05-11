@@ -5,6 +5,7 @@ category: Figma
 human_reviewed: false
 depends_on:
   - next-best-practices
+  - composition-patterns
 ---
 
 # 🎨 Figma to Next.js Component
@@ -352,6 +353,11 @@ Do NOT generate:
 ## Component decomposition
 If the node contains repeated patterns, extract small local subcomponents (e.g., `FeatureCard`, `StatItem`).
 Avoid duplicated JSX blocks.
+
+When the node has multiple display variants or interactive states:
+- Use **compound components** with shared context instead of boolean props (`isEditing`, `isExpanded`)
+- Use **explicit variant components** instead of one monolithic component with many flags
+- See `composition-patterns` skill for detailed patterns and code examples.
 
 ---
 

@@ -9,6 +9,7 @@ depends_on:
   - coding-conventions
   - react-useeffect
   - review-react
+  - composition-patterns
 ---
 # Frontend Quality Audit
 
@@ -42,6 +43,7 @@ This skill provides a rigorous verification checklist to ensure every frontend c
 - [ ] **React Server Components**: Server components used by default; `'use client'` only where necessary.
 - [ ] **Next.js 16 Caching**: Correct use of `'use cache'`, `cacheLife`, and `cacheTag` (see `next-cache-components`).
 - [ ] **State**: Local state managed via hooks; global state managed via context or dedicated library.
+- [ ] **Component Architecture**: No boolean prop proliferation — use compound components or explicit variants (see `composition-patterns`).
 - [ ] **Types**: Props fully typed, no `any`.
 - [ ] **useEffect**: No unnecessary Effects — derived state calculated during render, event handlers used for user interactions (see `react-useeffect`).
 - [ ] **React Rules**: No purity violations, hooks called at top-level only, no inline component definitions (see `review-react`).
